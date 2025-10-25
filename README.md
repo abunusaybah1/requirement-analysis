@@ -1,12 +1,12 @@
-##Requirement Analysis in Software Development
+# Requirement Analysis in Software Development
 
 This repository documents the Requirement Analysis phase of a Booking Management System. Its purpose is to define clear functional and non-functional requirements that guide development and ensure the system meets user and business needs.
 
-##What is Requirement Analysis?
+# What is Requirement Analysis?
 
 Requirement Analysis is the process of identifying, gathering, and documenting what a software system should do and how it should perform. It helps developers understand user and business needs before building the system, serving as the foundation of the Software Development Life Cycle (SDLC).
 
-#Importance in the SDLC
+## Importance in the SDLC
 
 Defines the project’s goals and scope clearly.
 Guides developers, designers, and testers with a common understanding.
@@ -14,11 +14,11 @@ Prevents costly errors and rework.
 Improves communication between stakeholders.
 Ensures the final product meets real user needs.
 
-##Why is Requirement Analysis Important?
+# Why is Requirement Analysis Important?
 
 Requirement Analysis is important because it ensures that the software being developed meets real user and business needs.It helps developers and stakeholders share a clear understanding of project goals, reduces costly mistakes, and improves the overall quality of the final product.
 
-##Key Activities in Requirement Analysis
+# Key Activities in Requirement Analysis
 
 - Requirement Gathering:
 Collecting information about user and business needs through interviews, surveys, observations, or questionnaires.
@@ -35,9 +35,9 @@ Examining relationships between requirements, identifying priorities, and repres
 - Requirement Validation:
 Reviewing requirements with stakeholders to ensure they are accurate, complete, and feasible before development begins.
 
-##Types of Requirements
+# Types of Requirements
 
-#Functional Requirements
+## Functional Requirements
 
 Definition: These specify what the system should do — the features, behaviours and operations the system must provide.
 
@@ -57,7 +57,7 @@ Examples (for the booking-management project):
 
 - The system must allow users to view their booking history (past and current bookings).
 
-#Non-Functional Requirements
+## Non-Functional Requirements
 
 Definition: These specify how the system should behave — its quality attributes, performance, reliability, security, usability, etc.
 
@@ -75,4 +75,19 @@ Examples (for the booking-management project):
 
 - Booking transactions must be logged and auditable to allow tracing of changes by admins.
 
-- The system should support caching of frequent queries (e.g., room availability) to improve speed and reduce database load (as in the article where caching with Redis is mentioned). 
+- The system should support caching of frequent queries (e.g., room availability) to improve speed and reduce database load (as in the article where caching with Redis is mentioned).
+
+# Acceptance Criteria
+
+Acceptance Criteria define when a feature is complete and acceptable.
+They guide development, testing, and ensure user satisfaction.
+
+Example – Checkout Feature:
+
+- User reviews booking before payment.
+
+- Secure payment is processed.
+
+- Success → confirmation + email.
+
+- Failure → error shown, booking stays pending.
